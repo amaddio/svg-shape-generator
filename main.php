@@ -7,10 +7,12 @@ use SvgApp\SVGFile;
 
 require __DIR__ . '/vendor/autoload.php';
 
-# main function that is called from the command line and takes these arguments.
-# When executed as `php main.php input.shapes output.svg` will:
+# main function that is called from the command line and takes two arguments.
+# - input file path
+# - output file path
+# When executed as `php main.php input.shapes output.svg` it will:
 # 1. Create an svg file that represents these shapes, saved to disk.
-# 2. Print out the sum of lengths of all shapes (length or circumference when applicable)
+# 2. Print out the sum of lengths of all shapes
 if (count($argv) != 3) {
     echo "Usage: php main.php input.shapes output.svg\n";
     exit(1);

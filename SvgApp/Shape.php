@@ -2,15 +2,7 @@
 
 namespace SvgApp;
 
-# base class for all shapes that to have this members
-
-# Shapes and formats:
-# - sq <X> <Y> <STRIDE> <COLOR>                   # square
-# - rt <X> <Y> <WIDTH> <HEIGHT> <COLOR>           # rect
-# - cl <X> <Y> <DIAMETER> <COLOR>                 # circle
-# - ln <X0> <Y0> <X1> <Y1> <COLOR>                # line
-# - pl <X0> <Y0> <X1> <Y1> ... <Xn> <Yn> <COLOR>  # polyline
-
+# Base class for all shapes
 abstract class Shape {
     public $x;
     public $y;

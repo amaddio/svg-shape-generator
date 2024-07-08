@@ -3,16 +3,8 @@
 namespace SvgApp;
 
 class Rectangle extends Shape {
-    # parameters- rt <X> <Y> <WIDTH> <HEIGHT> <COLOR>           # rect
-
-    /**
-     * @var int|mixed
-     */
     private $height;
 
-    /**
-     * @var int|mixed
-     */
     private $width;
 
     public function __construct($x=0, $y=0, $color="#000000", $width=0, $height=0) {

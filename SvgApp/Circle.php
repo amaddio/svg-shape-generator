@@ -3,10 +3,6 @@
 namespace SvgApp;
 
 class Circle extends Shape {     # circle
-
-    /**
-     * @var int|mixed
-     */
     private $diameter;
 
     public function __construct($x=0, $y=0, $color="#000000", $diameter=0) {
@@ -23,5 +19,4 @@ class Circle extends Shape {     # circle
     {
         return 2 * pi() * $this->diameter;
     }
-
 }

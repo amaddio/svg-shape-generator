@@ -3,15 +3,8 @@
 namespace SvgApp;
 
 class Line extends Shape {
-
-    /**
-     * @var int|mixed
-     */
     private $x2;
 
-    /**
-     * @var int|mixed
-     */
     private $y2;
 
     public function __construct($x=0, $y=0, $x2=0, $y2=0, $color="#000000") {

@@ -2,8 +2,7 @@
 
 namespace SvgApp;
 
-class PolyLine extends Shape {
-    # - pl <X0> <Y0> <X1> <Y1> ... <Xn> <Yn> <COLOR>  # polyline
+class Polyline extends Shape {
 
     /**
      * @throws \InvalidArgumentException if the number of x and y coordinates are not equal
