@@ -31,7 +31,7 @@ Shapes and formats:
 
 ## Unit Tests
 
-Run tests with: `./vendor/bin/phpunit tests`
+Run tests with: `./vendor/bin/phpunit Tests`
 
 ## Installation
 
